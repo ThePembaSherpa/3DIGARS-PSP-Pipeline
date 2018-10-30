@@ -1,0 +1,5 @@
+../Features/T08593/T0859.pssm
+../Features/T08593/T0859.monogram
+../Features/T08593/T0859.bigram
+SEQUENCE LENGTH: 133
+Sequence Length: 133

@@ -1,0 +1,14 @@
+#!/bin/sh
+#purpose: run 3DIGARS3.0
+#author: Avdesh
+
+cd ../3DIGARS3.0/
+java ThreeDIGARSVersionThree T0859_3_879_13 F > output_3_879_13.txt
+cd ./o3DIGARSEgy/codes/
+./main.exe T0859 3 879 13 F
+cd ../../DSSP/
+rm -f T0859_3_879_13.dssp
+cd ../FEATURES/
+rm -f T0859_3_879_13.rsa
+cd ../ConsolidatedASA/
+rm -f T0859_3_879_13.rpASA

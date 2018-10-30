@@ -1,0 +1,1 @@
+create V5 from V3 in function checkAndCorrectSSAtCrossoverPoint ... update the condition ... (betaCondition == true and new_phi_psi_ss_type == "E")

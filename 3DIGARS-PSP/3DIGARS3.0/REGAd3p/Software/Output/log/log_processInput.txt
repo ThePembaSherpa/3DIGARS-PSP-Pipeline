@@ -1,0 +1,2 @@
+Make Directory Command: mkdir ../Features/T08593
+Copy fasta file command: cp ../Input/FASTA/T0859.fasta ../Features/T08593

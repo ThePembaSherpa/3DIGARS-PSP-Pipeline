@@ -1,0 +1,12 @@
+/home/amishra2/Ab-Initio-3DIGARS-PSP-Pipeline-CASP12/Ab-Initio-3DIGARS-PSP-Pipeline-T0859/3DIGARS-PSP/3DIGARS3.0/Input/pdbInput/T0859_2_879_9.pdb
+DSSP ran successfully
+DSSP file parse successful
+Creating ASA file required for ASA Energy
+ASA file required for ASA based energy is successfully created
+3DIGARS library loaded successfully
+ASA library loaded successfully
+uPhi Library Loaded Successfully
+uPhi Library Loaded Successfully
+Generating 3DIGARS3.0 Energy
+# Individual_Energies -83.12367282521842	105.97414	1271.283374370751	911.2704109685733
+# /home/amishra2/Ab-Initio-3DIGARS-PSP-Pipeline-CASP12/Ab-Initio-3DIGARS-PSP-Pipeline-T0859/3DIGARS-PSP/3DIGARS3.0/Input/pdbInput/T0859_2_879_9.pdb:-		25.163217552972533

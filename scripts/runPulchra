@@ -1,0 +1,20 @@
+#!/bin/sh
+#purpose: run Pulchra
+#author: Avdesh
+
+pulchra_path="/home/amishra2/Ab-Initio-Soft/pulchra_306";
+input_path=$1
+
+#output is created in the same directory from where the pulchra program is being run
+rm $input_path/*.rebuilt.pdb
+rm $input_path/list.txt
+ls $input_path/*.pdb > $input_path/list.txt
+for file in `cat $input_path/list.txt`;
+do 
+	#===========================================================================================================
+	#Run Pulchra
+	echo $file
+	$pulchra_path/pulchra -g -v $input_path/$file;
+	
+	#===========================================================================================================
+done

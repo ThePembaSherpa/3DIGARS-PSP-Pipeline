@@ -1,0 +1,24 @@
+#!/bin/sh
+#purpose: run PSSM 
+#author: Avdesh
+
+psiblast_path="/home1/presentation/DBase/BLAST/ncbi-blast-2.2.28+/bin";
+nr_database_path="/home1/presentation/DBase/BLAST/ncbi-blast-2.2.28+/bin/nr/nr";
+
+protein_id=$1;
+input_path=$2;
+fasta_path=$3;
+pssm_output_file_path=$2;
+
+#===========================================================================================================
+#Run PSI-BLAST to generate PSSM
+
+if [ -f $input_path/$protein_id.mat ];
+then
+	printf "PSSM already exists!!\n";
+else
+	printf "running PSI-BLAST...";
+	$psiblast_path/psiblast -query $fasta_path -db $nr_database_path -out $pssm_output_file_path/$protein_id.out -num_iterations 3 -num_threads 16 -out_ascii_pssm $pssm_output_file_path/$protein_id.mat;
+	printf "...DONE!!!\n";
+fi
+#===========================================================================================================

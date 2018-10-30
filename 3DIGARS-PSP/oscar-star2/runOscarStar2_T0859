@@ -1,0 +1,6 @@
+#!/bin/sh
+#purpose: run oscar-star2
+#author: Avdesh
+
+cd ../../../3DIGARS-PSP/oscar-star2/
+./oscar-star ../../output/T0859/T0859_878_19_bb.pdb

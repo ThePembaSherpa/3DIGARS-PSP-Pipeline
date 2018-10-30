@@ -1,0 +1,24 @@
+
+-------------- REGAd3p Start------------------
+
+ID: T08590
+copying fasta from 3DIGARS3.0 energy function to REGAd3p/Softwares/Input/
+Length: 133
+processing Input......DONE!!!
+copying pssm from /pssmout/ to REGAd3p/Softwares/Features/
+PSSM already exists!!
+running IUPred (short & long)......DONE!!!
+generating monogram and bigram......DONE!!!
+collecting features for SS prediction......DONE!!!
+generating input for SS prediction......DONE!!!
+predicting secondary structure and processing output...sh: 1: /home1/presentation/Courses/CSCI_6635_Research/Lecture/Set_5_SVM/LibSVM/libsvm-3.17/libsvm-3.17/svm-scale: Permission denied
+sh: 1: /home1/presentation/Courses/CSCI_6635_Research/Lecture/Set_5_SVM/LibSVM/libsvm-3.17/libsvm-3.17/svm-predict: Permission denied
+Segmentation fault (core dumped)
+...DONE!!!
+collecting features for ASA prediction...Can't open svm predict file!
+...DONE!!!
+generating input for ASA prediction...Can't open all feature file File!
+...DONE!!!
+predicting ASA......DONE!!!
+
+-------------- REGAd3p End------------------
